@@ -15,4 +15,4 @@ for i in input:
     dist = abs(i - target)
     fuel += dist * (dist + 1) /2 
 
-print("The target is: ", target, " - The fuel needed is: ", fuel, f2)
+print("The target is: ", target, " - The fuel needed is: ", fuel)
