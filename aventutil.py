@@ -4,7 +4,7 @@ from aoc_utils import aoc_utils
 import os
 
 year = 2021
-puzzle = 13
+puzzle = 14
 
 problem_input = aoc_utils.fetch_and_save(year, puzzle)
 os.rename("input.txt", f"Day{puzzle}/input{puzzle}")
